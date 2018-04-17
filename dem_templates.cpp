@@ -48,7 +48,12 @@ void RunTheProgram(Node<T>* begin)
 	cout << endl;
 }
 
-//Sergeev Victor, 2016.
+/*
+Author: Sergeev Victor, 2016.
+Tusk: (V. №20) Entries in the linear list contain a key field of type * char (character string). 
+Create a bi-directional list. Delete an item with a key member. 
+Add items to the top and bottom of the list.
+*/
 int main()
 {
 	setlocale(LC_ALL, "Russian");
