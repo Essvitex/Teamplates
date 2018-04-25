@@ -111,7 +111,7 @@ void PrintList(Node<T> *b)
 {
 	if (b == NULL)
 	{
-		cout << "Ñïèñîê ïóñò!";
+		cout << "Ã‘Ã¯Ã¨Ã±Ã®Ãª Ã¯Ã³Ã±Ã²!";
 		return;
 	}
 
@@ -264,7 +264,6 @@ void ReadFromFile(Node<T> **b, const char* fname)
 		cout << "File is empty!" << endl;
 		return;
 	}
-
 	ClearList(b);
 
 	if (strcmp(fname, "") == 0)
