@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 template <class T>
 void RunTheProgram(Node<T>* begin)
 {
@@ -70,28 +69,24 @@ int main()
 	case 1:
 	{
 		Node<int>* begin = (Node<int>*)NULL;
-
 		RunTheProgram(begin);
 		break;
 	}
 	case 2:
 	{
 		Node<float>* begin = (Node<float>*)NULL;
-
 		RunTheProgram(begin);
 		break;
 	}
 	case 3:
 	{
 		Node<double>* begin = (Node<double>*)NULL;
-
 		RunTheProgram(begin);
 		break;
 	}
 	case 4:
 	{
 		Node<char>* begin = (Node<char>*)NULL;
-
 		RunTheProgram(begin);
 		break;
 	}
